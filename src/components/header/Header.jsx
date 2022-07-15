@@ -19,6 +19,7 @@ const Header = ({ setQuery, setSelectedMeal, mealType, getData }) => {
           type="text"
           placeholder="Search"
           onChange={(e) => setQuery(e.target.value)}
+          required
         />
         <Button type="submit">SEARCH</Button>
         <Select
